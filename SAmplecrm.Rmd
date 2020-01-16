@@ -1,0 +1,11 @@
+---
+title: "Sample data set"
+author: "Thuwaarahan"
+date: "1/16/2020"
+output: html_document
+---
+
+```{r}
+mydata = read.csv("customerTargeting.csv",header = T,sep = ",")
+mydata
+```
