@@ -6,6 +6,6 @@ output: html_document
 ---
 
 ```{r}
-mydata = read.csv("customerTargeting.csv",header = T,sep = ",")
-mydata
+data1 = read.csv("customerTargeting.csv",header = T,sep = ",")
+data1
 ```
